@@ -1,1 +1,1 @@
-#### Code repor for "Modern JavaScript From The Beginning by Brad Traversy" ####
+#### Code repor for "Modern JavaScript From The Beginning (2nde) by Brad Traversy" ####
