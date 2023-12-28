@@ -59,13 +59,13 @@ const d = 10,
 console.log(d);
 console.log(a);
 
-const person = {
+const user = {
   name: 'John',
   age: 30,
   city: 'New York'
 };
 
 // Removing the 'city' key
-delete person.city;
+delete user.city;
 
-console.log(person);
+console.log(user);
