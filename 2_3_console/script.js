@@ -1,4 +1,6 @@
-/* Run below code in browser console, you can access it by pressing F12. */
+/* Run below code in browser console, 
+
+you can access it by pressing F12. */
 
 // Log on console
 console.log('Hello World!');
@@ -29,5 +31,13 @@ console.log('Hello World!');
 console.log('Hello World!');
 console.log('Hello World!');
 console.timeEnd('Calculate time.');
+
+// Group console commands
+console.group('simple');
+console.log(x);
+console.error('Alert');
+console.warn('Warning');
+console.groupEnd();
+
 
 // console.clear(); //This will clear the console
