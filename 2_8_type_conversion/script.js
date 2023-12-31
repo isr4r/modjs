@@ -39,6 +39,9 @@ console.log(amount5, typeof amount5);
 
 // JS has a special type called "NaN" (Not A Number)
 // Ways to get NaN
+let amount6 = 'hello';
+amount6 = parseInt(amount6);
+console.log(amount6, typeof amount6);
 console.log(Math.sqrt(-1));
 console.log(1 + NaN);
 console.log(undefined + undefined);
