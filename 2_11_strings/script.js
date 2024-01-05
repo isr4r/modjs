@@ -25,7 +25,8 @@ console.log(x);
 x = s[0];
 console.log(x);
 
-// Shows the prototype of the string object. Shows the properties and methods
+// Shows the prototype of the string object. Shows the properties and methods. It will list down all available methods and properties for strings.
+
 x = s.__proto__;
 console.log(x);
 
