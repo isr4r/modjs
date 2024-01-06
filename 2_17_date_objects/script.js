@@ -57,15 +57,15 @@ console.log(x);
 x = d.toLocaleString('default', { month: 'short' });
 console.log(x);
 
-x = d.toLocaleString('default', {
+x = d.toLocaleString('en-AE', {
   weekday: 'long',
   year: 'numeric',
-  month: 'long',
+  month: 'short',
   day: 'numeric',
   hour: 'numeric',
   minute: 'numeric',
   second: 'numeric',
-  timeZone: 'America/New_York',
+  timeZone: 'Asia/Dubai',
 });
 
 console.log(x);
