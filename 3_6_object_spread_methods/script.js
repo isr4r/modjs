@@ -3,6 +3,7 @@
 let x;
 
 const todo = {};  // You can create an empty object and assign keys and values later.
+// const todo = new Object();  // Alternate way to create an object.
 
 todo.id = 1;
 todo.name = "Bob";
