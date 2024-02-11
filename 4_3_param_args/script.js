@@ -35,6 +35,9 @@ const user = {
 };
 
 console.log(loginUser(user));
+
+//Other way to pass object as parameter
+
 console.log(
   loginUser({
     id: 2,
@@ -53,7 +56,8 @@ function getRandom(arr) {
 
 getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 
-// Array as Params 
+// Array as Params, second example
+
 function calculateSum(numbers) {
   if (!Array.isArray(numbers)) {
     throw new Error('Input must be an array of numbers');
